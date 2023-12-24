@@ -5,6 +5,7 @@
 1. [Simple Banking Portal](#simple-banking-portal)
 2. [MY Hotel Management System](#my-hotel-management-system)
 3. [Sliding Puzzle Game](#sliding-puzzle-game)
+4. [Tic-Tac-Toe Game](#tic-tac-toe-game)
 
 ---
 
@@ -135,4 +136,39 @@ Run the compiled executable to start the Sliding Puzzel:
 
 ```bash
 ./sliding_puzzle
+```
+---
+# Tic-Tac-Toe Game
+
+Welcome to the Tic-Tac-Toe Game! This console-based application allows two players to play the classic Tic-Tac-Toe game on a 3x3 grid.
+
+## Game Rules
+
+1. Players take turns to enter their choices, either "O" or "X", in an empty cell of the 3x3 grid.
+2. The game checks after each move for a win or a draw.
+3. A player wins if they have three of their symbols ("O" or "X") in a row, column, or diagonal.
+4. The game ends in a draw if there are no empty cells left and no player has won.
+
+## How to Play
+
+1. Run the Python script using `python tic_tac_toe.py`.
+2. Enter your choice at each turn by inputting the corresponding cell number (1 to 9).
+3. The game will display the updated board after each move.
+4. The game will announce the winner or declare a draw at the end.
+
+## Example Board
+_ | _ | _ 
+_ | _ | _ 
+  |   | 
+
+## Game Completion
+
+The game continues until a player wins, or the board is filled, resulting in a draw.
+
+## Running the Game
+
+Ensure you have Python installed on your system. Run the script using the command:
+
+```bash
+python tic_tac_toe.py
 ```
