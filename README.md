@@ -85,6 +85,9 @@ Welcome to the MY Hotel Management System! This simple console-based application
 
 1. Run the `hotel_management.py` file.
 2. Follow the on-screen prompts to interact with the hotel management system.
+```bash
+python hotel_management.py
+```
 
 ### Data Storage
 
