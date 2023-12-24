@@ -82,6 +82,7 @@ int main() {
 //For displaying all Options
 void displayMenu() {
     printf("\nBank Portal Menu:\n");
+    printf("-----------------------\n");
     printf("1. Create Account\n");
     printf("2. Delete Account\n");
     printf("3. Show Balance\n");
