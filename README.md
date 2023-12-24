@@ -4,7 +4,7 @@
 
 1. [Simple Banking Portal](#simple-banking-portal)
 2. [MY Hotel Management System](#my-hotel-management-system)
-3. [Sliding Puzzle Game](#sliding-puzzel-game)
+3. [Sliding Puzzle Game](#sliding-puzzle-game)
 
 ---
 
@@ -53,6 +53,7 @@ Run the compiled executable to start the banking portal:
 ```bash
 ./banking_portal
 ```
+---
 ## MY Hotel Management System
 
 Welcome to the MY Hotel Management System! This simple console-based application allows you to manage hotel rooms, including the ability to add, view, search, and delete rooms.
@@ -61,89 +62,77 @@ Welcome to the MY Hotel Management System! This simple console-based application
 
 1. **Add Room:**
    - Add a new room to the hotel by providing the room number and selecting the room type.
-
 2. **View Rooms:**
    - View all available rooms categorized by room type.
-
 3. **Search Room:**
    - Search for a specific room using its room number.
-
 4. **Delete Room:**
    - Delete a room based on its room number.
-
 5. **Save and Exit:**
    - Save the current state of rooms to a file and exit the system.
 
 ### Room Types
 
-- Single Bedroom
-- Double Bedroom
-- Duplex
-- Suite
-- Apartment
+1. Single Bedroom
+2. Double Bedroom
+3. Duplex
+4. Suite
+5. Apartment
 
 ### Usage
 
-1. Run the `hotel_management.py` file.
+1. Run the hotel_management.py file.
+
+    ```bash
+    python hotel_management.py
+    ```
+
 2. Follow the on-screen prompts to interact with the hotel management system.
-```bash
-python hotel_management.py
-```
 
 ### Data Storage
 
-Room data is stored in the `hotel_data.txt` file. You can modify this file to add or remove rooms manually.
+Room data is stored in the hotel_data.txt file. You can modify this file to add or remove rooms manually.
 
 **Note:** Each room type has a limit of 20 rooms.
 
 Feel free to explore and enhance the functionality of this hotel management system based on your requirements.
 
 Happy managing!
-
-
-
-### Sliding Puzzle Game
+---
+## Sliding Puzzle Game
 
 Welcome to the Sliding Puzzle Game! This console-based application allows you to play a classic sliding puzzle game on a 3x3 board.
 
-## Instructions
+### Instructions
 
-### Goal
+**Goal:**
 The goal of the game is to arrange the numbers on the board in ascending order from left to right and top to bottom. The empty space is represented by a blank position.
 
-### How to Play
-1. Use the following keys to make moves:
-    - Press 'w' to move up
-    - Press 's' to move down
-    - Press 'a' to move left
-    - Press 'd' to move right
+**How to Play:**
+Use the following keys to make moves:
 
-2. Continue making moves until you arrange the numbers in the correct order.
+- Press 'w' to move up.
+- Press 's' to move down.
+- Press 'a' to move left.
+- Press 'd' to move right.
 
-3. You win the game when all numbers are in ascending order, and the empty space is in the bottom right corner.
+Continue making moves until you arrange the numbers in the correct order. You win the game when all numbers are in ascending order, and the empty space is in the bottom right corner.
 
 ### Constraints
+
 - You have a maximum of 100 moves to complete the game.
 
-## Compiling and Running
+### Compiling and Running
 
-1. Compile the code using a C compiler (e.g., gcc):
+Compile the code using a C compiler (e.g., gcc):
 
-    ```bash
-    gcc sliding_puzzle.c -o sliding_puzzle
-    ```
+```bash
+gcc sliding_puzzle.c -o sliding_puzzle
+```
+### Usage
 
-2. Run the compiled executable:
+Run the compiled executable to start the Sliding Puzzel:
 
-    ```bash
-    ./sliding_puzzle
-    ```
-
-## Additional Information
-
-- The game board is displayed after each move, and the number of moves is tracked.
-
-- The game ends when you successfully arrange the numbers in the correct order, or when you reach the maximum number of moves.
-
-Feel free to explore and enjoy the game! Happy sliding!
-
+```bash
+./sliding_puzzle
+```
