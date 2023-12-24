@@ -157,10 +157,11 @@ Welcome to the Tic-Tac-Toe Game! This console-based application allows two playe
 4. The game will announce the winner or declare a draw at the end.
 
 ## Example Board
+```
 _ | _ | _ 
 _ | _ | _ 
   |   | 
-
+```
 ## Game Completion
 
 The game continues until a player wins, or the board is filled, resulting in a draw.
