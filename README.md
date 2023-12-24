@@ -51,11 +51,12 @@ Run the compiled executable to start the banking portal:
 
 ```bash
 ./banking_portal
-# MY Hotel Management System
+```
+## MY Hotel Management System
 
 Welcome to the MY Hotel Management System! This simple console-based application allows you to manage hotel rooms, including the ability to add, view, search, and delete rooms.
 
-## Features
+### Features
 
 1. **Add Room:**
    - Add a new room to the hotel by providing the room number and selecting the room type.
@@ -72,7 +73,7 @@ Welcome to the MY Hotel Management System! This simple console-based application
 5. **Save and Exit:**
    - Save the current state of rooms to a file and exit the system.
 
-## Room Types
+### Room Types
 
 - Single Bedroom
 - Double Bedroom
@@ -80,12 +81,12 @@ Welcome to the MY Hotel Management System! This simple console-based application
 - Suite
 - Apartment
 
-## Usage
+### Usage
 
 1. Run the `hotel_management.py` file.
 2. Follow the on-screen prompts to interact with the hotel management system.
 
-## Data Storage
+### Data Storage
 
 Room data is stored in the `hotel_data.txt` file. You can modify this file to add or remove rooms manually.
 
@@ -94,3 +95,4 @@ Room data is stored in the `hotel_data.txt` file. You can modify this file to ad
 Feel free to explore and enhance the functionality of this hotel management system based on your requirements.
 
 Happy managing!
+
