@@ -4,6 +4,7 @@
 
 1. [Simple Banking Portal](#simple-banking-portal)
 2. [MY Hotel Management System](#my-hotel-management-system)
+3. [Sliding Puzzle Game](#sliding-puzzel-game)
 
 ---
 
@@ -98,4 +99,51 @@ Room data is stored in the `hotel_data.txt` file. You can modify this file to ad
 Feel free to explore and enhance the functionality of this hotel management system based on your requirements.
 
 Happy managing!
+
+
+
+### Sliding Puzzle Game
+
+Welcome to the Sliding Puzzle Game! This console-based application allows you to play a classic sliding puzzle game on a 3x3 board.
+
+## Instructions
+
+### Goal
+The goal of the game is to arrange the numbers on the board in ascending order from left to right and top to bottom. The empty space is represented by a blank position.
+
+### How to Play
+1. Use the following keys to make moves:
+    - Press 'w' to move up
+    - Press 's' to move down
+    - Press 'a' to move left
+    - Press 'd' to move right
+
+2. Continue making moves until you arrange the numbers in the correct order.
+
+3. You win the game when all numbers are in ascending order, and the empty space is in the bottom right corner.
+
+### Constraints
+- You have a maximum of 100 moves to complete the game.
+
+## Compiling and Running
+
+1. Compile the code using a C compiler (e.g., gcc):
+
+    ```bash
+    gcc sliding_puzzle.c -o sliding_puzzle
+    ```
+
+2. Run the compiled executable:
+
+    ```bash
+    ./sliding_puzzle
+    ```
+
+## Additional Information
+
+- The game board is displayed after each move, and the number of moves is tracked.
+
+- The game ends when you successfully arrange the numbers in the correct order, or when you reach the maximum number of moves.
+
+Feel free to explore and enjoy the game! Happy sliding!
 
